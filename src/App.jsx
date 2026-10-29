@@ -1,11 +1,11 @@
-import React from 'react'
+import { BrowserRouter } from 'react-router-dom';
 
-const App = () => {
+export default function App() {
   return (
-    <div>
-      
-    </div>
-  )
+    <BrowserRouter>
+      <div className="app-container">
+        {/* Estrutura base da aplicacao */}
+      </div>
+    </BrowserRouter>
+  );
 }
-
-export default App
