@@ -1,11 +1,7 @@
-import React from 'react'
-
-const Footer = () => {
+export default function Footer() {
   return (
-    <div>
-      
-    </div>
-  )
+    <footer style={{ textAlign: 'center', padding: '1.5rem', backgroundColor: '#222', color: '#aaa', marginTop: '2rem' }}>
+      <p>&copy; 2026 Exotic Drive - Locação de Veículos Importados</p>
+    </footer>
+  );
 }
-
-export default Footer
